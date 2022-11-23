@@ -1,17 +1,18 @@
 # Exercise1
-# students = ['Sabika','Layla', 'Ranya']
+# students = ['Sabika','Layla', 'Ranya', 'Sharifa', 'Hessa', 'Fatima', 'Kareem', 'Alex']
 # print(students[1])
-# print(students[2])
+# print(students[-1])
 
 
 #Exercise2
-# foods = ('pizza', 'pasta', 'sushi')
+foods = ('pizza', 'pasta', 'sushi', 'Koshary', 'Steak')
 # for food in foods:
 #     print(f"{food} is a good food")
 
 
 # Exercise3
 # for food in foods[1:3]:
+#               or [-2:]:
 #     print(f"{food} is a good food")
 
 
@@ -31,6 +32,25 @@
 
 # Exercise6
 # cohort = []
+# student = [
+#     {
+#         'student': 'Sabika',
+#         'fav_food': 'Chocolate',
+#     },
+#     {
+#         'student': 'A.Rahman',
+#         'fav_food': 'Sea Food',
+#     },
+
+#     {
+#         'student': 'Fatima',
+#         'fav_food': 'French Fries',
+#     },
+# ]
+
+# for s in students:
+#     cohort.append(s)
+#     print(cohort)
 # for idx, name in enumerate(students):
 #     cohort.append({
 #         'name': name,
